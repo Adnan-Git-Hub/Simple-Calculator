@@ -4,8 +4,8 @@ import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
   //  esko ; terminator bolte ha matlab ak func khtam
-  { message: "Enter first number", type: "number", name: "firstNumber" }, // {}object ha esmai msg likha ha phir , diya ha
-  { message: "Enter second number", type: "number", name: "secondNumber" }, // take dusra msg likhe, ak object khtm hu tu , de ge
+  { message: "Enter your first number", type: "number", name: "firstNumber" }, // {}object ha esmai msg likha ha phir , diya ha
+  { message: "Enter your second number", type: "number", name: "secondNumber" }, // take dusra msg likhe, ak object khtm hu tu , de ge
   {
     message: "Select one operator to perform operation",
     type: "list",

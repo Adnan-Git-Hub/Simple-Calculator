@@ -2,8 +2,7 @@
 
 import inquirer from "inquirer";
 
-const answer = await inquirer.prompt([
-  //  esko ; terminator bolte ha matlab ak func khtam
+const answer = await inquirer.prompt([                                          //  esko ; terminator bolte ha matlab ak func khtam
   { message: "Enter your first number", type: "number", name: "firstNumber" }, // {}object ha esmai msg likha ha phir , diya ha
   { message: "Enter your second number", type: "number", name: "secondNumber" }, // take dusra msg likhe, ak object khtm hu tu , de ge
   {
